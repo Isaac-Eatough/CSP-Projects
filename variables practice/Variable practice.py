@@ -1,5 +1,2 @@
-name = "Isaac"
-smlNum = 8
-lrgNum = 530
-school = "UCAS"
-print(name,smlNum,lrgNum,school)
+name = input("enter your name: ")
+print(f"Hello, {name}! Welcome to Computer Science class!")
