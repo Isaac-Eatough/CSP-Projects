@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main(void){
-   char name[50];
-   printf("enter your name: ");
-   fgets(name, sizeof(name), stdin);
-   printf("hello, %s! Welcome to the program.\n, name");
+   char name []="Isaac Eatough";
+  int smlnum[]= 2;
+  int lrgnum[]= 98;
+  printf("%s", name);
     return 0;
 }
