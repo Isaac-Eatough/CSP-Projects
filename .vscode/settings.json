@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "the start for code in .C": "cpp",
-        "namedecorater.C": "cpp"
+        "namedecorater.C": "cpp",
+        "name.C": "cpp",
+        ".C": "cpp"
     }
 }
