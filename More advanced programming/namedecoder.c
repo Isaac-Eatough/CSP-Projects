@@ -11,5 +11,5 @@ int main() {
     size_t len = strlen(name);
     if (len > 0 && name[len - 1] == '\n') {
         name[len - 1] = '\0';
-    return 0;
+    return 0;}
 }
