@@ -1,9 +1,7 @@
-name = input("type a name")
 def nameFuntion(Hello):
     print("Hello", name)
-    
-    nameFunction(input("type a name"))
-    nameFunction(input("type a name"))
-    nameFunction(input("type a name"))
-    nameFunction(input("type a name"))
-    nameFunction(input("type a name"))
+nameFuntion(input("type your name:"))
+nameFuntion(input("type your name:"))
+nameFuntion(input("type your name:"))
+nameFuntion(input("type your name:"))
+nameFuntion(input("type your name:"))
