@@ -1,6 +1,6 @@
 #include <stdio.h>
 
 int main(void){
-    char[20];
+    char name[20];
     return 0;
 }
