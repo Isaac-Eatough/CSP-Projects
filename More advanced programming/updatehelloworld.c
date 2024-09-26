@@ -1,12 +1,12 @@
 #include <stdio.h>
-#include <string.h>
-char name;
-char colt[4];
-char steve[5];
-char larry[5];
-char leon[4];
-char doug[4];
+float doug, sam, hank, larry, leon;
+
 int main(void){
-    char name[20];
+    printf("this will chose 5 different names");
+    doug = input("doug", doug);
+    sam = input("sam", sam);
+    hank = input("hank", hank);
+    larry = input("larry", larry);
+    leon = input("leon", leon);
     return 0;
 }
