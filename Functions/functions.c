@@ -27,7 +27,7 @@ int main(void){
     printf("your expenses $%.2f\n", expenses);
     printf("your savings are $%.2f\n", savings);
     printf("your spending money is $%.2f\n", spend);
-
+    
     percent("rent", rent);
    percent("utilities", utilities);
    percent("groceries", groceries);

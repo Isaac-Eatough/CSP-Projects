@@ -9,6 +9,7 @@ int main(void){
    char name2[10] = "Doug";
    input(name2);
    char name3[10] = "Larry";
+ 
    input(name3);
    char name4[10] = "Chester";
    input(name4);
