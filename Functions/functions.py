@@ -1,11 +1,11 @@
-def percent(percent, type)
+def str(str, type)
     print(f"what is your {type}: ")
 print("Hello and welcome to your finacial calculator!\n")
-income = input(percent("monthly income" income))
-rent = input(percent("monthly rent" rent))
-utilties = input(percent("monthly utilities" utilities))
-groceries = input(percent("monthly groceries" groceries))
-transportation = input(percent("monthly transportation" transportation))
+income = input(str("monthly income" income))
+rent = input(str("monthly rent" rent))
+utilties = input(str("monthly utilities" utilities))
+groceries = input(str("monthly groceries" groceries))
+transportation = input(str("monthly transportation" transportation))
 savings = income*.2
 expenses = rent+utilties+groceries+transportation
 spending = income-savings-expenses
