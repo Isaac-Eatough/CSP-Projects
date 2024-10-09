@@ -1,11 +1,11 @@
-def float(float, type)
+def percent(percent, type)
     print(f"what is your {type}: ")
 print("Hello and welcome to your finacial calculator!\n")
-income =float(input("what is your monthly income: "))
-rent =float(input("what is your monthly rent: "))
-utilties =float(input("what is your monthly utilities: "))
-groceries =float(input("what is your monthly groceries: "))
-transportation =float(input("what is your monthly transportation cost: "))
+income = input(percent("monthly income" income))
+rent = input(percent("monthly rent" rent))
+utilties = input(percent("monthly utilities" utilities))
+groceries = input(percent("monthly groceries" groceries))
+transportation = input(percent("monthly transportation" transportation))
 savings = income*.2
 expenses = rent+utilties+groceries+transportation
 spending = income-savings-expenses
