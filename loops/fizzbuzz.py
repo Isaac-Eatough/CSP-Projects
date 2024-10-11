@@ -1,4 +1,12 @@
-import random
-num = random.randint(1, 51)
+
+x = 0
+x += 1
 for x in range(1, 51):
- if x == num:
+    if x%3==0 and x%5==0 and x!=0:
+        print("FizzBuzz")
+    elif x%3==0 and x!=0:
+        print("Fizz")
+    elif x%5==0 and x!=0:
+        print("Buzz")
+    else:
+        print(x)
