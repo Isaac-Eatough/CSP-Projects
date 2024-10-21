@@ -1,13 +1,14 @@
-def percent(type, amount)
-    print(f"what is your {amount}: ")
+def scan(type):
+    float(input(f"what is your {type}: "))
+    return 
+income = (scan("income"))
+rent= (scan("rent"))
+utilities = (scan("utilities"))
+groceries = (scan("groceries"))
+transportation = (scan("transportation"))
 print("Hello and welcome to your finacial calculator!\n")
-income = input(percent("monthly income" income))
-rent = input(percent("monthly rent" rent))
-utilties = input(percent("monthly utilities" utilities))
-groceries = input(percent("monthly groceries" groceries))
-transportation = input(percent("monthly transportation" transportation))
 savings = income*.2
-expenses = rent+utilties+groceries+transportation
+expenses = rent+utilities+groceries+transportation
 spending = income-savings-expenses
 def percent(type, amount):
     per = amount/income
@@ -17,7 +18,7 @@ print(f"your monthly expenses is ${expenses:.2f}\n")
 print(f"your monthly savings is ${savings:.2f}\n")
 print(f"your monthly spending money is ${spending:.2f}\n")
 print(percent("rent",rent))
-print(percent("utilities",utilties))
+print(percent("utilities",utilities))
 print(percent("groceries",groceries))
 print(percent("transportation",transportation))
 print(percent("savings",savings))
