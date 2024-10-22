@@ -6,5 +6,5 @@ elif age >= 16:
     print("you can drive!")
 elif age >= 15:
     print("you can get your learner's permit!") 
-elif age >= 5:
+else:
     print("you can go to school!")
